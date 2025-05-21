@@ -1,4 +1,4 @@
-package zerobase.dividend.model;
+package zerobase.dividend.model.constants;
 
 public class CacheKey {
 

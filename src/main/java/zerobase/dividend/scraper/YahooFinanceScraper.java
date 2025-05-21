@@ -76,7 +76,7 @@ public class YahooFinanceScraper implements Scraper {
         String url = String.format(SUMMARY_URL, ticker, ticker);
 
         try {
-        Document document = Jsoup.connect(url).get();
+            Document document = Jsoup.connect(url).get();
             Element titleEle = document.getElementsByTag("h1").get(0);
             String title = titleEle.text().split(" - ")[1].trim();
 
